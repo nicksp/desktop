@@ -181,7 +181,7 @@ export class About extends React.Component<IAboutProps> {
 
         return (
           <UpdateInfo
-            message={`You have the latest version (last checked ${absoluteDate})`}
+            message={`You have the latest version (last checked${' '}${absoluteDate})`}
             richMessage={richMessage}
           />
         )
